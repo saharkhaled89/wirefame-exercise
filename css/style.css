@@ -26,10 +26,11 @@ ul {
   float: right;
   margin: auto;
 }
-#list{
+
+ul {
   color: #303030;
 }
-#buttom_action{
+div wall button{
   color:white;
   background-color: black;
   padding: 5px;
@@ -46,7 +47,7 @@ li {
   margin-right: 30px;
 }
 
-#logo {
+div picture1 img {
   float: left;
   margin: 20px 0px 20px 100px;
   width: 200px;
@@ -64,51 +65,85 @@ section {
   width: 100%;
   text-align: center;
 }
-#hero {
+div picture2 img {
   display: inline-block;
   background-color: #DDD;
   height: 450px;
   width: 960px;
 }
-.section2 {
+
+
+section figure1 img {
+
+
   display: inline-block;
   width: 300px;
   height: 375px;
   background-color: #DDD;
+
 }
-#section22 {
+
+
+
+section figure2 img {
+
+
+  display: inline-block;
+  width: 300px;
+  height: 375px;
+  background-color: #DDD;
+
+}
+
+
+section figure3 img {
+
+
+  display: inline-block;
+  width: 300px;
+  height: 375px;
+  background-color: #DDD;
+
+}
+
+
+
+
+section figure2 img {
   margin-left: 30px;
   margin-right: 30px;
 }
-section:nth-of-type(3) {
+section {
   display: flex;
   justify-content: center;
 }
-.section3 {
+section figure4 img {
   width: 480px;
   height: 400px;
 }
-.section3:nth-of-type(1) {
+section figure4 img {
   background-color: #DDD;}
 
-  #textfirst {
+
+
+  section figure5 {
     display: flex;
     flex-direction: column;
     margin-left: 30px;
     width: 460px;
 }
-#textfirst h5 {
+section figure5 h5 {
   text-align: left;
   margin-bottom: 10px;
   font-size: 20px;
 }
 
-#wall {
+div wall {
   display: flex;
   justify-content: flex-start;
   margin-top: 10px;
 }
-button {
+div wall button {
   width: 200px;
   height: 40px;
 }
