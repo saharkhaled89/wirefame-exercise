@@ -1,10 +1,16 @@
 body {
   background-color: white;
+    
+  margin-top: 0pt;
+  padding-top: 0pt;
 }
 
 header {
   background-color: darkgray;
   margin-bottom: 20px;
+  
+  margin-top: 0pt;
+  padding-top: 0pt;
   
 }
 nav {
@@ -13,7 +19,6 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   z-index: -1;
-  
 }
 ul {
   list-style-type: none;
@@ -21,7 +26,19 @@ ul {
   float: right;
   margin: auto;
 }
-
+#list{
+  color: #303030;
+}
+#buttom_action{
+  color:white;
+  background-color: black;
+  padding: 5px;
+}
+textarea{
+  background-color: white;
+  border: none;
+  resize: none;
+}
 li {
   display: inline;
   padding: 0px;
@@ -80,11 +97,12 @@ section:nth-of-type(3) {
     margin-left: 30px;
     width: 460px;
 }
-#text-feature h4 {
+#textfirst h5 {
   text-align: left;
   margin-bottom: 10px;
   font-size: 20px;
 }
+
 #wall {
   display: flex;
   justify-content: flex-start;
